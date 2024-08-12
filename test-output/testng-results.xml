@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Hello World]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-08-10T09:58:06 IST" name="Suite" finished-at="2024-08-10T09:58:06 IST" duration-ms="114">
+    <groups>
+    </groups>
+    <test started-at="2024-08-10T09:58:06 IST" name="Test" finished-at="2024-08-10T09:58:06 IST" duration-ms="114">
+      <class name="TesNG.SampleTest">
+        <test-method signature="Demo()[pri:0, instance:TesNG.SampleTest@393671df]" started-at="2024-08-10T09:58:06 IST" name="Demo" finished-at="2024-08-10T09:58:06 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Hello World]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+      </class> <!-- TesNG.SampleTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
