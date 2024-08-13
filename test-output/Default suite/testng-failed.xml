@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TesNG.RetryTest">
+      <class name="TestNGImplementation.copy.CreateOrganisation">
         <methods>
-          <include name="demo"/>
+          <include name="methodTeardown"/>
+          <include name="classTeardown"/>
+          <include name="methodConfiguration"/>
+          <include name="createOrgTest"/>
+          <include name="ClassConfiguration"/>
         </methods>
-      </class> <!-- TesNG.RetryTest -->
+      </class> <!-- TestNGImplementation.copy.CreateOrganisation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
