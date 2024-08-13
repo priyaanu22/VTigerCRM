@@ -19,7 +19,7 @@ import objectRepo.HomePage;
 import objectRepo.LoginPage;
 import objectRepo.OrganizationInformationPage;
 import objectRepo.OrganizationsPage;
-
+//validate
 public class CreateOrganisation extends BaseClass
 {
 	@Test(groups="organizations")
