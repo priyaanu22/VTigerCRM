@@ -19,7 +19,9 @@ import objectRepo.HomePage;
 import objectRepo.LoginPage;
 import objectRepo.OrganizationInformationPage;
 import objectRepo.OrganizationsPage;
-//This class used to
+
+//validate done
+
 public class CreateOrganisation extends BaseClass
 {
 	@Test(groups="organizations")
