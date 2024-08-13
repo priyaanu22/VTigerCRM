@@ -24,7 +24,7 @@ public class CreateOrganisation
 		
 		propertyUtil.PropertiesInit(IConstantPath.PROPERTIES_FILE_PATH);
 		excel.excelInit(IConstantPath.EXCEL_PATH);
-		
+	
 		WebDriver driver =driverUtil.lanchBrowser(propertyUtil.readFromProperties("browser"));
 		driverUtil.maximizeBrowser();
 		driverUtil.navigateToApp(propertyUtil.readFromProperties("url"));
@@ -90,6 +90,7 @@ public class CreateOrganisation
        driver.findElement(By.xpath("//a[text()='Sign Out']")).click();
         excel.closeExcel();
         driverUtil.quitAllWindow();
+        
 
 	}
 
