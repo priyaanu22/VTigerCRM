@@ -3,11 +3,27 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="Addtional_Scenarious.HandleanyNotifications">
+=======
+      <class name="TestNGImplementation.copy.CreateOrganisation">
+>>>>>>> branch 'master' of https://github.com/priyaanu22/VTigerCRM.git
         <methods>
+<<<<<<< HEAD
           <include name="handleNotification"/>
+=======
+          <include name="methodTeardown"/>
+          <include name="classTeardown"/>
+          <include name="methodConfiguration"/>
+          <include name="createOrgTest"/>
+          <include name="ClassConfiguration"/>
+>>>>>>> branch 'master' of https://github.com/priyaanu22/VTigerCRM.git
         </methods>
+<<<<<<< HEAD
       </class> <!-- Addtional_Scenarious.HandleanyNotifications -->
+=======
+      </class> <!-- TestNGImplementation.copy.CreateOrganisation -->
+>>>>>>> branch 'master' of https://github.com/priyaanu22/VTigerCRM.git
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
