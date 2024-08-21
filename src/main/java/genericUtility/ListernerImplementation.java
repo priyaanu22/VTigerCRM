@@ -21,7 +21,7 @@ public class ListernerImplementation  implements ITestListener
 	
 	@Override
 	public void onStart(ITestContext context) {
-		ExtentSparkReporter spark=new ExtentSparkReporter("./ExtentReports/report_"+BaseClass.sjutil.getCurrentTime()+".html");
+		ExtentSparkReporter spark=new ExtentSparkReporter("./ExtentReports/report_"+new JavaUtility().getCurrentTime()+".html");
 		spark.config().setTheme(Theme.STANDARD);
 		spark.config().setDocumentTitle("Extent Report");
 		spark.config().setReportName("VTiger_CRM");

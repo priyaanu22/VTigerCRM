@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TesNG.RetryTest">
+      <class name="Addtional_Scenarious.HandleanyNotifications">
         <methods>
-          <include name="demo"/>
+          <include name="handleNotification"/>
         </methods>
-      </class> <!-- TesNG.RetryTest -->
+      </class> <!-- Addtional_Scenarious.HandleanyNotifications -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
