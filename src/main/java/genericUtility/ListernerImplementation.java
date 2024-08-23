@@ -21,7 +21,7 @@ public class ListernerImplementation  implements ITestListener
 	
 	@Override
 	public void onStart(ITestContext context) {
-		ExtentSparkReporter spark=new ExtentSparkReporter("./ExtentReports/report-"+BaseClass.sjutil.getCurrentTime()+".html");
+		ExtentSparkReporter spark=new ExtentSparkReporter("./ExtentReports/report-"+new JavaUtility().getCurrentTime()+".html");
 												
 		spark.config().setTheme(Theme.STANDARD);
 		spark.config().setDocumentTitle("Extent Report");
@@ -34,6 +34,7 @@ public class ListernerImplementation  implements ITestListener
 		report.setSystemInfo("OS Version",System.getProperty("os.version"));
 		report.setSystemInfo("JDK Version",System.getProperty("java.specification.version"));
 		report.setSystemInfo("Author",System.getProperty("Priya"));
+		
 		
 		
 	}
