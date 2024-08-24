@@ -1,4 +1,4 @@
-package TesNG;
+package testng;
 
 import org.testng.Assert;
 import org.testng.Reporter;
